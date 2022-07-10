@@ -11,6 +11,7 @@ using System;
       Console.WriteLine("Please enter a number");
       string strCountUpto = Console.ReadLine();
       int countUpTo = int.Parse(strCountUpto);
+      Console.WriteLine("----------------------");
 
       for (int i = 1; i <= countUpTo; i++)
       {
